@@ -10,7 +10,7 @@ function App() {
   const movie_list = myMovies.map(movie =>
     <li>{movie}</li>);
 
-  const is_user = <p>-->you are a user who likes neil breene</p>;
+  const is_user = <p>you are a user who likes neil breene</p>;
   const not_user = <h1>you aren't a user</h1>;
 
   let finishing_message;
